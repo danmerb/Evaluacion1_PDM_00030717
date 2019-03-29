@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contador de productos"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="3"
+        />
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="3">
+
+    <LinearLayout
+
+        android:id="@+id/ly_pro1"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorpro1"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:id="@+id/tv_pro1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Producto 1"
+            android:textColorLink="@android:color/white"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/et_pro1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_pro2"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorpro2"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:id="@+id/tv_pro2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto 2"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/et_pro2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_pro3"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorpro3"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:id="@+id/tv_pro3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto 3"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/et_pro3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="3">
+
+        <LinearLayout
+            android:id="@+id/ly_pro4"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorpro4"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:id="@+id/tv_pro4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto 4"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/et_pro4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_pro5"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorpro5"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:id="@+id/tv_pro5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto 5"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/et_pro5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_pro6"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorpro6"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:id="@+id/tv_pro6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto 6"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/et_pro6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="3">
+
+        <LinearLayout
+            android:id="@+id/ly_pro7"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorpro7"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:id="@+id/tv_pro7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto 7"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/et_pro7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_pro8"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorpro8"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:id="@+id/tv_pro8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto 8"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/et_pro8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_pro9"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorpro9"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:id="@+id/tv_pro9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producto 9"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/et_pro9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginVertical="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"/>
+
+    <EditText
+        android:id="@+id/et_usuario"
+        android:layout_marginHorizontal="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe el usuario aqui"/>
+
+    <TextView
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginVertical="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo Electronico"/>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_marginHorizontal="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe el usuario aqui"/>
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="enviar"/>
+
+
+</LinearLayout>

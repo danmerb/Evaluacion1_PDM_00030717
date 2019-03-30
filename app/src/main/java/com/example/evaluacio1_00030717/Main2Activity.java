@@ -3,6 +3,7 @@ package com.example.evaluacio1_00030717;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -48,6 +49,20 @@ public class Main2Activity extends AppCompatActivity {
 
         }
 
+
+
+        btn_share.setOnClickListener(v -> {
+
+            String user= tv_user.getText().toString();
+            String email = tv_email.getText().toString();
+            String productos = tv_productos.getText().toString();
+            String info="Nombre: " + user + "\n" + "Correo Electronico: " + email + "\n"  + "Cantidad de productos: " + productos;
+            Intent Intent = new Intent();
+            Intent.setAction(Intent.ACTION_SEND);
+            Intent.setType("text/plain");
+            Intent.putExtra(Intent.EXTRA_TEXT, info);
+            startActivity(Intent);
+        });
 
         }
 
